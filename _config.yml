@@ -20,6 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "Opendata.swissMetadataAPI.md", title: "Metadata API"}
   - {file: "StacAPI.md", title: "STAC API"}
   - {file: "Sharedmobility.ch-API.md", title: "Sharedmobility.ch API"}
+  - {file: "IlicopAPI.md", title: "Ilicop API"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:geoinformation@bfe.admin.ch"}

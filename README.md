@@ -11,3 +11,4 @@ The SFOE’s data can be queried automatically via programming interfaces. A com
 * [Opendata.swiss Metadata API](https://github.com/nrohrbach/ApplicationProgrammingInterfaceDocumentation/blob/main/Opendata.swissMetadataAPI.md)
 * [STAC API](https://github.com/nrohrbach/ApplicationProgrammingInterfaceDocumentation/blob/main/StacAPI.md)
 * [Sharedmobility.ch API](https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md)
+* [Ilicop API](https://github.com/nrohrbach/ApiDocumentation/blob/master/IlicopAPI.md)
