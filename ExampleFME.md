@@ -23,12 +23,12 @@ File Upload - MIME Type: application/octet-stream
 ## 2. Get *JobId*
 Use a *JSONExtractor* Transformer to get the jobid as followed:
 
-<img src="SFOE/ApiDocumentation/raw/master/images/2_jobid.JPG" width="50%"/>
+<img src="https://github.com/SFOE/ApiDocumentation/raw/master/images/2_jobid.JPG" width="50%"/>
 
 ## 3. Check Status
 The validation starts as soon as the Interlis file was uploaded. Use the *GET Status* endpoint to check status of the validation. Bigger files take some time to validate. Use a custom *Loop* transformer to check status as long as it is still beeing processed.
 
-<img src="SFOE/ApiDocumentation/raw/master/images/images/3_checkstatus.JPG" width="50%"/>
+<img src="https://github.com/SFOE/ApiDocumentation/raw/master/images/3_checkstatus.JPG" width="50%"/>
 
 Use a *Decelerator* transformer to get a request every 5 seconds:
 * Processing Slowdown Method: Per Feature Delay
@@ -47,7 +47,7 @@ Eventually use a *Tester* transformer to loop as long as status is 'processing'.
 Now use a *tester* transformer to check if data is valid. If status is 'completed' proceed with valid data e.g. publication. If status is 'completedWithErrors' download log files to detect errors and stop process with a *Terminator* transformer:
 
 
-<img src="https://github.com/nrohrbach/ApiDocumentation/blob/master/images/4_logfiles.JPG" width="50%"/>
+<img src="https://github.com/SFOE/ApiDocumentation/raw/master/images/4_logfiles.JPG" width="50%"/>
 
 Use a *HTTPCaller* transfomer to download log files:
 * Log file: https://ilicop.ch/api/v1/download?jobId=@Value(jobid)&logType=log
