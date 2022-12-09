@@ -12,6 +12,6 @@ Here we show you examples in Python an FME how to query the Ilicop-API:
 
 
 ## Examples
-* [Python](https://github.com/nrohrbach/ApiDocumentation/blob/master/IlicopAPI_python.ipynb)
-* [FME](https://github.com/nrohrbach/ApiDocumentation/blob/master/ExampleFME.md)
+* [Python](https://github.com/SFOE/ApiDocumentation/blob/master/IlicopAPI_python.ipynb)
+* [FME](https://github.com/SFOE/ApiDocumentation/blob/master/ExampleFME.md)
 
