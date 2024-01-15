@@ -7,25 +7,12 @@ Here we show you some examples how to query the STAC-API:
 * [General information on the STAC-API](https://www.geo.admin.ch/en/geo-services/geo-services/download-services/stac-api.html)
 * [Detailled documentation of the STAC-API](https://data.geo.admin.ch/api/stac/static/spec/v0.9/api.html)
 * [STAC Specification](https://stacspec.org/)
-* [Plugin to read data directly in QGIS using STAC-API ](https://kartoza.com/en/blog/new-qgis-stac-api-plugin/)
+* [Plugin to read data directly in QGIS using STAC-API ](https://kartoza.com/blog/qgis/qgis-stac-api-plugin)
 
 *Note: Use [GeoAdmin API](https://nrohrbach.github.io/ApiDocumentation/GeoAdminAPI/) if you want to query objects within a dataset.*
 
 ## Available datasets
 You will find all available datasets of the Federal Spatial Data Infrastructure FSDI [here](https://data.geo.admin.ch/browser/index.html#/?t=collections).
-
-*Note: SFOE datasets that are updated regularly are not availble via the STAC API at the moment. These datasets are:*
-* ch.bfe.elektrizitaetsproduktionsanlagen
-* ch.bfe.energieberatungsstellen
-* ch.bfe.energieforschung
-* ch.bfe.energiestaedte
-* ch.bfe.energiestaedte-2000watt-areale
-* ch.bfe.erneuerbarheizen
-* ch.bfe.erneuerbarheizen-mehrfamilienhaeuser
-* ch.bfe.komo-projekte
-* ch.bfe.ladestellen-elektromobilitaet
-* ch.bfe.shared-mobility
-* ch.bfe.thermische-netze
 
 ## Example queries
 
